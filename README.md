@@ -4,7 +4,8 @@ The PPO algorithm is implemented by Nikolay Goodger and can be found in his repo
 
 
 # Setup for PPO
+(Start the file PPO_BIG_TE_constraints.ipynb with for example jupyter notebook)
 To setup just make sure that python 3.8.2 or above is installed with the needed libraries (run the import statements in the notebook and see).
-In case they are not installed just install them with pip and retry.
+In case they are not installed just install them with pip and retry. (I needed to install dotmap and tensorboard with pip)
 
 There are several hyperparameters to set for training which can be found under the section hyperparameters in the notebook. We suggest you just run the script as it is to start investigating by yourself.
