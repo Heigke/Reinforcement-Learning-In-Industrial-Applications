@@ -1,6 +1,6 @@
 # Reinforcement-Learning-In-Industrial-Applications
 In this repository we find the algorithms Proximal Policy Optimisation (PPO) and Deep Deterministic Policy Gradients (DDPG) applied to the Tennessee Eastman challenge process (http://users.abo.fi/khaggblo/RS/Downs.pdf).
-The PPO algorithm is implemented by Nikolay Goodger and can be found in his repository (https://gitlab.com/ngoodger/ppo_lstm/-/blob/master/recurrent_ppo.ipynb) and an astounding description of his work is given in the article Proximal Policy Optimisation with PyTorch using Recurrent models at Medium. The implementation of the Tennessee Eastman challenge process was done by Niklas Kotarsky and Johan Grönqvist.
+The PPO algorithm is implemented by Nikolay Goodger and can be found in his repository (https://gitlab.com/ngoodger/ppo_lstm/-/blob/master/recurrent_ppo.ipynb) and an astounding description of his work is given in the article Proximal Policy Optimisation with PyTorch using Recurrent models at Medium. The implementation of the Tennessee Eastman challenge process was done by Niklas Kotarsky and Johan Grönqvist. A compiled version of the original Fortran code is included (A.out) in the repository but if one want to recompile for some version you need to use the original Fortran code (teprob.f).
 
 
 # Setup for PPO
